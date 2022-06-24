@@ -17,7 +17,7 @@ pipeline {
            steps {
                 dir("${SCRIPTS_PATH}") {
                     sh """
-                    echo "Build"
+                    npm start
                     """
                 }
             }
@@ -26,7 +26,7 @@ pipeline {
             steps {
                 dir("${SCRIPTS_PATH}") {
                    sh """
-                    echo "Test"
+                    npm run test
                     """
                 }
             }
