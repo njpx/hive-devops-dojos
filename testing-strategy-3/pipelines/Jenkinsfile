@@ -4,7 +4,7 @@ pipeline {
     tools {nodejs "NodeJS"}
 
     environment {
-        PROJECT_PATH="${env.JENKINS_HOME}/workspace/OnBoardingPart3/testing-strategy-3"
+        PROJECT_PATH="${env.JENKINS_HOME}/workspace/strategy-3/testing-strategy-3"
         SCRIPTS_PATH="${PROJECT_PATH}/scripts"
         DEV="dev"
         ALPHA="alpha"
